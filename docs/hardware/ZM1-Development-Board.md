@@ -27,7 +27,6 @@ For more information on the ZM1-DB Library as software drivers, Its features, fu
 
 Other useful documents are:
 
--   [Datasheet](https://www.zerynth.com/download/13895/)
 -   [Quick Guide](https://www.zerynth.com/download/15283/)
 
 
@@ -35,8 +34,6 @@ Other useful documents are:
 ## Pin Mapping
 
 ![](img/4zeroboxpin.png)
-
-Official reference for Zerynth ZM1-DB can be found  [here](https://www.zerynth.com/4zeroplatform/).
 
 ## Flash Layout
 
@@ -83,5 +80,5 @@ The internal flash of the ESP32 module is organized in a single flash area with 
 
 ## Power
 
-Power to the ZM1-DB is supplied via the on-board USB-C connector or directly via the “24V” screw.
+Power to the ZM1-DB is supplied via the on-board USB-C connector or directly via the "+Power-" screw (9-36 Vdc).
 
