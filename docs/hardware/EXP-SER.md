@@ -19,16 +19,11 @@ For more information on the EXP-SER Library as software drivers, Its features, f
 
 Other useful documents are:
 
--   [Datasheet](https://www.zerynth.com/download/13895/)
 -   [Quick Guide](https://www.zerynth.com/download/15283/)
-
-
 
 ## Pin Mapping
 
 ![](img/4zeroboxpin.png)
-
-Official reference for EXP-SER can be found  [here](https://www.zerynth.com/4zeroplatform/).
 
 ## Device Summary
 
@@ -51,18 +46,18 @@ Controls the Interrupt output of the MCP2518 CAN controller.
 ### S1 Switch
 **Warning**: pins 2 and 3 must never be in the ON position at the same time
 
-| PIN |       OFF       |             ON              |
-|-----|-----------------|-----------------------------|
-|  1  | Select Serial 1 | Select Serial 2             |
-|  2  |        -        | Connect CTS with CS MCP2518 |
-|  3  |        -        | Connect CTS with serial 232 |
+| PIN |       OFF       |             ON                |
+|-----|-----------------|-------------------------------|
+|  1  | Select Serial 1 | Select Serial 2               |
+|  2  |        -        | Connect CTS with CS MCP2518   |
+|  3  |        -        | Connect CTS with RS232/RS485  |
 
 ### S2 Switch
 
 | PIN |            OFF           |            ON               |
 |-----|--------------------------|-----------------------------|
 |  1  |             -            | RS485 120 Ohm Connection    |
-|  2  | Disable RX channel RS485 | Connect CTS with CS MCP2518 |
+|  2  | Disable RX channel RS485 | Enable RX channel RS485     |
 |  3  |             -            | CAN 120 Ohm Connection      |
 
 ## Power
