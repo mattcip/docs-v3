@@ -25,8 +25,6 @@ Other useful documents are:
 
 ![](img/4zeroboxpin.png)
 
-Official reference for Zerynth 4ZeroBox can be found  [here](https://www.zerynth.com/4zeroplatform/).
-
 ## Flash Layout
 
 The internal flash of the ESP32 module is organized in a single flash area with pages of 4096 bytes each. The flash starts at address 0x00000, but many areas are reserved for Esp32 IDF SDK and Zerynth OS. There exist two different layouts based on the presence of BLE support.
@@ -93,4 +91,4 @@ The internal flash of the ESP32 module is organized in a single flash area with 
 
 ## Power
 
-Power to the 4ZeroBox is supplied via the on-board USB Micro B connector or directly via the “24V” screw. The power source is selected automatically. Zerynth 4ZeroBox has also a JST Li-Po battery connector (3.7V).
+Power to the 4ZeroBox is supplied via the on-board USB Micro B connector or directly via the “24V-GND” screws (9-36 Vdc compatible). The power source is selected automatically. Zerynth 4ZeroBox has also a JST Li-Po battery connector (3.7V).
