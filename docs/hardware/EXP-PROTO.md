@@ -14,12 +14,6 @@ The Z-bus allows the connection in a cascade of different add-on modules to crea
 
 For more infos about electrical connections, and how to use EXP-PROTO with sensors and other hardware, see the  [user manual](https://www.zerynth.com/download/13894/).
 
-Other useful documents are:
-
--   [Datasheet](https://www.zerynth.com/download/13895/)
--   [Quick Guide](https://www.zerynth.com/download/15283/)
-
-
 
 ## Pin Mapping
 
