@@ -17,15 +17,12 @@ For more information on the EXP-RELAY Library as software drivers, Its features,
 
 Other useful documents are:
 
--   [Datasheet](https://www.zerynth.com/download/13895/)
 -   [Quick Guide](https://www.zerynth.com/download/15283/)
 
 
 ## Pin Mapping
 
-![](img/4zeroboxpin.png)
-
-Official reference for EXP-RELAY can be found  [here](https://www.zerynth.com/4zeroplatform/).
+![](img/4zeroboxpin.png).
 
 ## Device Summary
 
