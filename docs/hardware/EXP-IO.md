@@ -1,9 +1,9 @@
 # EXP-IO
 
 The EXP-IO expansion board is a mixed input/output module that features:
-* Relay: The board features 4 Solid state relays Normally open connection rated at 36Vdc, This enables developers to control actuators easily using Software libraries with Zerynth SDK.
+* Relay: The board features 4 Solid state relays Normally open connection rated at 36Vdc. This enables developers to control actuators easily using Software libraries with Zerynth SDK.
 
-* Opto-isolated digital inputs: 2 channels of opto-isolated digital inputs are available on the board.
+* Opto-isolated digital inputs: 2 channels of opto-isolated digital inputs rated at 36Vdc are available on the board.
 
 * 2 Analog Channels channels: Connect your sensor easily and read the data from the sensors over the 2 industrial-compatible channels on the board. The channels support voltage-based ( ±10V), current-based (±20mA) or resistive sensors (calibrated for 11 Kohm for best precision).
 
@@ -22,7 +22,6 @@ For more information on the EXP-IO Library as software drivers, Its features, fu
 
 Other useful documents are:
 
--   [Datasheet](https://www.zerynth.com/download/13895/)
 -   [Quick Guide](https://www.zerynth.com/download/15283/)
 
 
@@ -30,15 +29,13 @@ Other useful documents are:
 
 ![](img/4zeroboxpin.png)
 
-Official reference for EXP-IO can be found  [here](https://www.zerynth.com/4zeroplatform/).
-
 ## Device Summary
 
 * 4x Solid State Relays NO.
     Uses the TLP172A, Rated at 36Vdc.
 * 2x opto-isolated digital inputs
     Uses ISO1212DBQR IC rated for 36Vdc.
-* 2x Analog Channels channels: Can be configured as
+* 2x Analog Channels channels: Can be configured, according to the onboard switch position, as
     4-20 mA Current channel
     0-10V Voltage channel
     Resistive Sensor Channel (calibrated for 11 Kohm for best precision).
